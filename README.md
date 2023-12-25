@@ -39,3 +39,5 @@ In short: be aware that many keys expiring at the same moment can be a source of
 исходя из вывода ```postmaster invoked oom-killer``` системе не хватает оперативной памяти и она принудительного завершает выбранные запущенные процессы.      
 Самое простое - это увеличить оперативную память и swap... но это вероятно лишь отложит время до повторения проблемы
 
+Доработка:
+Настроить праметры использования памяти PostgreSQL: max_connections, shared_buffer, work_mem, effective_cache_size, maintenance_work_mem
